@@ -1,0 +1,33 @@
+.AuthNav {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.AuthNav__navItem {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.AuthNav__link {
+    width: 100%;
+    color: #8f8f8f;
+    text-transform: uppercase;
+    text-align: center;
+    border: 0;
+    padding: 8px 16px 9px 16px;
+    border-bottom: 1px solid #8f8f8f;
+    border-radius: 0;
+    margin: 0;
+}
+
+.AuthNav__link--active {
+    color: #FF3366;
+    border-bottom: 2px solid #FF3366;
+    padding: 8px 16px 8px 16px;
+}
+
+.AuthNav__link:hover {
+    color: #FF3366;
+    padding: 8px 16px 8px 16px;
+    border-bottom: 2px solid #FF3366;
+}
